@@ -16,6 +16,9 @@ public void draw()
 	fill(7, 117, 13);
 	rect(0, 465, 640, 15); 
 } 
+public void mousePressed(){
+	redraw();
+}
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
 	double angle1 = (10-Math.random())/9.2*(angle+branchAngle);
